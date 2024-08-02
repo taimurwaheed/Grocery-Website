@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/logo-img.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo"> Groc<span>eries</span> </a>
+
+    <ul class="menu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#products" id="home-prod">Products</a></li>
+      <li><a href="#Testimonials">Testimonials</a></li>
+      <li><a href="#download-app" id="home-app">Application</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="#" class="like">
+        <i class="fas fa-heart"></i>
+        <span>0</span>
+      </a>
+
+      <a href="cart.html" class="cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span>0</span>
+      </a>
+
+  </nav>
+
+  <section class="search-banner">
+    <img src="images/bg-1.png" class="bg-1" alt="fruits" />
+
+    <div class="search-banner-text">
+      <h1>Order Your daily Groceries</h1>
+      <strong>#Free Delivery</strong>
+
+      <form action="" class="search-box" id="searchForm">
+        <!-- <i class="fas fa-search"></i> -->
+        <input type="text" class="search-input" name="search" placeholder="search your groceries" />
+        <input type="submit" class="search-btn" name="search-btn" value="search" required />
+      </form>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product" data-id="1">
+        <img src="./images/product1.png" alt="Product 1" />
+        <h3>Chicken</h3>
+        <p>Price: $9.99</p>
+        <a href="" class="cart-btn">
+          <i class="fas fa-shopping-bag">Add to Cart</i>
+        </a>
+      </div>
+      <div class="product" data-id="2">
+        <img src="./images/prod2.png" alt="Product 2" />
+        <h3>Fruits & Vegetables</h3>
+        <p>Price: $12.99</p>
+        <a href="" class="cart-btn">
+          <i class="fas fa-shopping-bag">Add to Cart</i>
+        </a>
+      </div>
+      <div class="product" data-id="3">
+        <img src="./images/prod3.jpg" alt="Product 3" />
+        <h3>Olive Oil</h3>
+        <p>Price: $8.99</p>
+        <a href="" class="cart-btn">
+          <i class="fas fa-shopping-bag">Add to Cart</i>
+        </a>
+      </div>
+      <div class="product" data-id="4">
+        <img src="./images/product4.png" alt="Product 4" />
+        <h3>Eggs</h3>
+        <p>Price: $5.99</p>
+        <a href="" class="cart-btn">
+          <i class="fas fa-shopping-bag">Add to Cart</i>
+        </a>
+      </div>
+      <div class="product" data-id="5">
+        <img src="./images/product5.png" alt="Product 5" />
+        <h3>Butter</h3>
+        <p>Price: $3.99</p>
+        <a href="" class="cart-btn">
+          <i class="fas fa-shopping-bag">Add to Cart</i>
+        </a>
+      </div>
+      <div class="product" data-id="6"> 
+        <img src="./images/product6.png" alt="Product 6" />
+        <h3>Bread</h3>
+        <p>Price: $10.99</p>
+        <a href="" class="cart-btn">
+          <i class="fas fa-shopping-bag">Add to Cart</i>
+        </a>
+      </div>
+      <div class="product" data-id="7">
+        <img src="./images/product7.png" alt="Product 7" />
+        <h3>Creamy Alfredo</h3>
+        <p>Price: $2.99</p>
+        <a href="" class="cart-btn">
+          <i class="fas fa-shopping-bag">Add to Cart</i>
+        </a>
+      </div>
+      <div class="product" data-id="8">
+        <img src="./images/product9.png" alt="Product 9" />
+        <h3>Milk</h3>
+        <p>Price: $6.99</p>
+        <a href="" class="cart-btn">
+          <i class="fas fa-shopping-bag">Add to Cart</i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="clients" id="Testimonials">
+    <div class="client-heading">
+      <h3>What Our Clients Say</h3>
+    </div>
+
+    <div class="clients-grid">
+      <div class="client-box-container">
+        <div class="client-profile">
+          <img src="imagess/client-1.jpg" alt="client" />
+        </div>
+        <div class="profile-text">
+          <strong>James Mac</strong>
+          <span>CEO</span>
+        </div>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          minus, adipisci voluptates exercitationem libero alias temporibus
+          quibusdam similique eius ut, dolorem dolore tempora quaerat esse
+          magni. Earum iure possimus quod.
+        </p>
+      </div>
+
+      <div class="client-box-container">
+        <div class="client-profile">
+          <img src="imagess/client-2.jpg" alt="client" />
+        </div>
+        <div class="profile-text">
+          <strong>Jane Doe</strong>
+          <span>Manager</span>
+        </div>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          minus, adipisci voluptates exercitationem libero alias temporibus
+          quibusdam similique eius ut, dolorem dolore tempora quaerat esse
+          magni. Earum iure possimus quod.
+        </p>
+      </div>
+
+      <div class="client-box-container">
+        <div class="client-profile">
+          <img src="imagess/client-3.jpg" alt="client" />
+        </div>
+        <div class="profile-text">
+          <strong>John Smith</strong>
+          <span>Developer</span>
+        </div>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          minus, adipisci voluptates exercitationem libero alias temporibus
+          quibusdam similique eius ut, dolorem dolore tempora quaerat esse
+          magni. Earum iure possimus quod.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="download-app" id="download-app">
+    <div class="app-img">
+      <img src="imagess/mobile-app.png" alt="app" />
+    </div>
+
+    <div class="download-app-text">
+      <strong>Download App</strong>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse fugit
+        deleniti fuga doloremque qui nulla labore praesentium recusandae nam
+        officiis laudantium maxime obcaecati at omnis, sequi voluptatum
+        laborum ut totam.
+      </p>
+
+      <div class="download-btns">
+        <a href="#"><img src="imagess/appstore-btn.png" alt="" /></a>
+        <a href="#"><img src="imagess/googleplay-btn.png" alt="" /></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="#">Groc<span>eries</span></a>
+
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <strong class="prod">Product</strong>
+        <ul>
+          <li><a href="#">Clothes</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">New</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <strong class="categ">Category</strong>
+        <ul>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Meals</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Men</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <strong>Contact</strong>
+        <ul>
+          <li>Phone: +123-456-789</li>
+          <li>Email: example@example.com</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
